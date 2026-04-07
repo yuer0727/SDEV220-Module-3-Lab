@@ -24,10 +24,10 @@ def main():
     
     
     car_year = input("Please enter the year of the car: ")
-    car_make = input("Please enter the make of the car (e.g., Toyota): ")
-    car_model = input("Please enter the model of the car (e.g., Corolla): ")
-    car_doors = input("Please enter the number of doors (2 or 4): ")
-    car_roof = input("Please enter the type of roof (solid or sun roof): ")
+    car_make = input("Please enter the make of the car: ")
+    car_model = input("Please enter the model of the car: ")
+    car_doors = input("Please enter the number of doors: ")
+    car_roof = input("Please enter the type of roof: ")
     
    
     my_car = Automobile(v_type, car_year, car_make, car_model, car_doors, car_roof)
